@@ -29,4 +29,9 @@ public class FishApp implements Callable {
     File file = new File("CalculatorWSAppMavenWebApp-1.0-SNAPSHOT");
     deployer.deploy(file);
      */
+    
+    public static void main(String[] args) {
+        System.out.println("\"********************** FishApp.main invoked ************************\"");
+        log.log(Level.INFO,"========================= FishApp.main invoked =======================");
+    }
 }
